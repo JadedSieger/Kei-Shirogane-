@@ -1,0 +1,59 @@
+module.exports = ({
+  name: "help-dev",
+  code: `  
+$addCmdReactions[✔️]
+$noMentionMessage
+$title[1;Hello $username! Welcome to v0.2.1a of Kei Shirogane!]
+$description[1; You can use kei!, or mention the bot, or just use kei. to summon the bot
+
+There are three command categories, you are currently accessing : >Commands/dev
+
+_e.g: kei!<command here>, @Kei Shirogane(Dev Test)<command here>, Kei<command here>_
+]
+$description[2; 
+__**Here are the commands that Kei Shirogane v0.2.1a Provides**__
+
+**Kei Shirogane for Developers and Server Owners** 
+'usage: kei!adminvite'
+_In case you would love it when I'm present._
+
+**Bot Avatar**
+'usage: kei!botAvatar <url>'
+_Only SimpCast Productions can change it though._
+
+**discord.js Eval**
+'usage: kei!djseval <code>'
+_I'm not a maid, but I'll do it anyways._
+
+**dm**
+'usage: kei!dm <user> <text>'
+_Man, you gotta grow some strength._
+
+**Eval**
+'usage: kei!eval <code>'
+_Only I can use this hehe. - Yoshi, Head Dev._
+
+**filesize**
+'usage: kei!filesize <path and command>'
+_Wow. That's large._
+
+**reload**
+'usage: kei!reload'
+_Have you tried turning it on and off again?._
+
+**ping**
+'usage: dt!ping'
+_You're currently playing Ping Pong with Kei._
+
+
+**totalcount**
+'usage: kei!offcount'
+_I take my resources from Discord Cache, so don't trust me, oh also, I count all of you for the Titanic manifest._
+
+**Updating the Command Handler**
+'usage: kei!chUpdate'
+_Oh yeah I do love infinite resets._
+
+]
+`
+});
