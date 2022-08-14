@@ -1,5 +1,6 @@
 module.exports =({
     name:"hack",
+   aliases:["hp","hacc"],
     code:`
   $noMentionMessage
   Encrypting $username[$mentioned[1]]'s username and password...

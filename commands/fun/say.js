@@ -1,7 +1,7 @@
 module.exports = ({
-    name: "say",
-    code:`
-  $noMentionMessage
-  $deletecommand
-  `
-  });
+  name: "say",
+  code:`
+$noMentionMessage
+$deletecommand
+`
+});
