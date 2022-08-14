@@ -1,4 +1,3 @@
-//OTg0NzY1NDAyMjU5MjY3NjI0.GS7jR0.q9hCYPgFR5svjAyycubRbbDZXjp8A5wuDRA7PE
 //Bot files
 const { LoadCommands, Bot } = require("aoi.js");
 const config = require('./config.json');
